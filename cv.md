@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: default
 title: My Resume
 excerpt: "What have I done with my life"
 tags: [intro, resume, cv]
 comments: true
-category: blog
 ---
 
 You will find a detailled resume of my experiences on this webpage
