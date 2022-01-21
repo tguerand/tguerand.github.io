@@ -6,6 +6,10 @@ owner:
   name: Tristan Guérand
   bio: "This is a small webpage about me"
   email : tris.tan.guerand@gmail.com
-  linkedin: #tristanguerand
+  linkedin: tristanguerand
   github: tguerand
   avatar: linkedin.jpg
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
