@@ -5,3 +5,6 @@ I am Tristan Guérand, a PhD Candidate at Nanyang Technological University under
 I am also graduated from Université Paris-Saclay - CentraleSupélec with a MEng in Applied Mathematics for Data Science in 2021.
 
 I also host a [podcast](https://2potesquicastent.com/) with my friend [Lancelot Brun](https://www.linkedin.com/in/lancelotbrun/) in french.
+
+
+#### [Resume]{./cv.md}
