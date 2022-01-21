@@ -9,4 +9,4 @@ I also host a [podcast](https://2potesquicastent.com/) with my friend [Lancelot 
 
 #### [Resume](./cv.html)
 
-#### [Research](./research.html)
+#### [Research Interest](./research.html)
