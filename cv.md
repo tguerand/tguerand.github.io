@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: My Resume
 excerpt: "What have I done with my life"
 tags: [intro, resume, cv]
