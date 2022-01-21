@@ -7,4 +7,6 @@ I am also graduated from Université Paris-Saclay - CentraleSupélec with a MEng
 I also host a [podcast](https://2potesquicastent.com/) with my friend [Lancelot Brun](https://www.linkedin.com/in/lancelotbrun/) in french.
 
 
-#### [Resume]{./cv.html}
+#### [Resume](./cv.html)
+
+#### [Research](./research.html)
