@@ -19,7 +19,7 @@ Under the supervision of [Thomas Peyrin](https://thomaspeyrin.github.io/web/).
 PhD Thesis on cryptography and machine learning
 
 ### [2 Potes Qui Castent](https://2potesquicastent.com/), 2021 Cofounder and host
-* Bimensual podcast with [Lancelot Brun]{https://www.linkedin.com/in/lancelotbrun/} on technology in french 
+* Bimensual podcast with [Lancelot Brun](https://www.linkedin.com/in/lancelotbrun/) on technology in french 
 * 1500+ streaming, 100+ followers
 
 ### [Stellantis](https://en.wikipedia.org/wiki/Stellantis) - 2018 2021 Data Scientist, traineeship
