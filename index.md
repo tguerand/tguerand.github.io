@@ -1,3 +1,8 @@
+---
+layout: default
+title: Homepage
+---
+
 ## What is it about ?
 
 I am Tristan Guérand, a PhD Candidate at Nanyang Technological University under the supervision of [Thomas Peyrin](https://thomaspeyrin.github.io/web/). I study cryptography and machine learning.
