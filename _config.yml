@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
 title: Tristan's homepage
 description: A small webpage about me (this description should change)
-show_downloads : True
+show_downloads : False
 
 owner:
   name: Tristan Guérand
