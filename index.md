@@ -3,7 +3,7 @@ layout: default
 title: Homepage
 ---
 
-## What is it about ?
+## About me
 
 I am Tristan Guérand, a PhD Candidate at Nanyang Technological University under the supervision of [Thomas Peyrin](https://thomaspeyrin.github.io/web/). I study cryptography and machine learning.
 
@@ -11,3 +11,6 @@ I am also graduated from Université Paris-Saclay - CentraleSupélec with a MEng
 
 I also host a [podcast](https://2potesquicastent.com/) with my friend [Lancelot Brun](https://www.linkedin.com/in/lancelotbrun/) in french.
 
+## Contact
+
+guer0001@e.ntu.edu.sg
