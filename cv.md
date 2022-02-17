@@ -6,7 +6,7 @@ tags: [intro, resume, cv]
 comments: true
 ---
 
-You will find a detailled resume of my experiences on this webpage
+You will find a detailled resume of my experiences on this webpage.
 
 [Back to HomePage](./)
 
