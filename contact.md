@@ -3,6 +3,6 @@ layout: contact
 title: Contact me
 ---
 
-## About me
+## How to contact me
 
-Test page
+Fill in the form below to send me a message
