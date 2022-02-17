@@ -13,4 +13,4 @@ I also host a [podcast](https://2potesquicastent.com/) with my friend [Lancelot 
 
 ## Contact
 
-guer0001@e.ntu.edu.sg
+[Contact form](./contact)
