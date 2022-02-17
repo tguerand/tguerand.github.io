@@ -5,7 +5,7 @@ show_downloads : False
 
 owner:
   name: Tristan Guérand
-  bio: "This is a small webpage about me"
+  bio: "This is my personal webpage"
   email : tris.tan.guerand@gmail.com
   linkedin: tristanguerand
   github: tguerand
