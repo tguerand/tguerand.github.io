@@ -19,7 +19,7 @@ Under the supervision of [Thomas Peyrin](https://thomaspeyrin.github.io/web/).
 
 PhD Thesis on cryptography and machine learning. 
 
-Teacher Assistant on the following courses (and course codes): Introduction to Python (PS0001), Statistics (PS0002), Algorithms for the real world (MH3400)
+Teacher Assistant on the following courses (and course codes): Introduction to Python ([PS0001](https://www.ntu.edu.sg/docs/librariesprovider123/obtl/mas/updated-obtl/ps0001-spms-mas-outcomes-based-teaching-and-learning-document-(obtl)-29th-may-2023.pdf?sfvrsn=2286bd85_3)), Statistics ([PS0002](https://www.ntu.edu.sg/docs/librariesprovider123/obtl/mas/updated-obtl/ps0002-spms-mas-outcomes-based-teaching-and-learning-document-(obtl)-20th-feb-2020.pdf?sfvrsn=8edf78ae_3)), Algorithms for the real world ([MH3400](https://www.ntu.edu.sg/docs/librariesprovider123/obtl/mas/updated-obtl/mh3400-spms-mas-outcomes-based-teaching-and-learning-document-(obtl)-19th-nov-2021.pdf?sfvrsn=9aae80c1_3))
 
 ### [2 Potes Qui Castent](https://2potesquicastent.com/) - 2021 2022 Cofounder and host
 * Bimensual podcast with [Lancelot Brun](https://www.linkedin.com/in/lancelotbrun/) on technology in french 
