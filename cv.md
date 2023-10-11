@@ -10,7 +10,7 @@ You will find a detailled resume of my experiences on this webpage.
 
 [Back to HomePage](./)
 
-Last edit : 21/01/2022
+Last edit : 11/10/2023
 
 ## Work Experience
 
@@ -42,6 +42,12 @@ neural networks Gained one operator per shift
 * Developed a recommendation system with Graph Neural Networks for their
 financial products.
 * Lessened recommendations similarity by 20% on benchmark dataset.
+
+## Papers and talks
+
+Neural Network-Based Rule Models With Truth Tables, accepted at [ECAI 23](https://ebooks.iospress.nl/doi/10.3233/FAIA230274), Adrien Benamira, Tristan Guérand, Thomas Peyrin, Hans Soegeng
+TT-TFHE: a Torus Fully Homomorphic Encryption-Friendly Neural Network Architecture, [arxiv](https://arxiv.org/abs/2302.01584), Adrien Benamira, Tristan Guérand, Thomas Peyrin, Sayandeed Saha
+A New Interpretable Neural Network-Based Rule Model for Healthcare Decision Making, presented at [IAIM23](https://iaim2023.sg/) ([arxiv](https://arxiv.org/abs/2309.11101)), Adrien Benamira, Tristan Guérand, Thomas Peyrin
 
 ## Education
 
