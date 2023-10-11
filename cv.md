@@ -46,7 +46,9 @@ financial products.
 ## Papers and talks
 
 Neural Network-Based Rule Models With Truth Tables, accepted at [ECAI 23](https://ebooks.iospress.nl/doi/10.3233/FAIA230274), Adrien Benamira, Tristan Guérand, Thomas Peyrin, Hans Soegeng
+
 TT-TFHE: a Torus Fully Homomorphic Encryption-Friendly Neural Network Architecture, [arxiv](https://arxiv.org/abs/2302.01584), Adrien Benamira, Tristan Guérand, Thomas Peyrin, Sayandeed Saha
+
 A New Interpretable Neural Network-Based Rule Model for Healthcare Decision Making, presented at [IAIM23](https://iaim2023.sg/) ([arxiv](https://arxiv.org/abs/2309.11101)), Adrien Benamira, Tristan Guérand, Thomas Peyrin
 
 ## Education
