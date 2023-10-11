@@ -14,11 +14,14 @@ Last edit : 11/10/2023
 
 ## Work Experience
 
-### [Nanyang Technological University](https://en.wikipedia.org/wiki/Nanyang_Technological_University), 2022 Current PhD Student
+### [Nanyang Technological University](https://en.wikipedia.org/wiki/Nanyang_Technological_University) - 2022 Current PhD Student
 Under the supervision of [Thomas Peyrin](https://thomaspeyrin.github.io/web/).
-PhD Thesis on cryptography and machine learning
 
-### [2 Potes Qui Castent](https://2potesquicastent.com/), 2021 Cofounder and host
+PhD Thesis on cryptography and machine learning. 
+
+Teacher Assistant on the following courses (and course codes): Introduction to Python (PS0001), Statistics (PS0002), Algorithms for the real world (MH3400)
+
+### [2 Potes Qui Castent](https://2potesquicastent.com/) - 2021 2022 Cofounder and host
 * Bimensual podcast with [Lancelot Brun](https://www.linkedin.com/in/lancelotbrun/) on technology in french 
 * 1500+ streaming, 100+ followers
 
@@ -53,7 +56,7 @@ A New Interpretable Neural Network-Based Rule Model for Healthcare Decision Maki
 
 ## Education
 
-### [Nanyang Technological University](https://en.wikipedia.org/wiki/Nanyang_Technological_University), 2022 Current PhD Student
+### [Nanyang Technological University](https://en.wikipedia.org/wiki/Nanyang_Technological_University) - 2022 Current PhD Student
 Under the supervision of [Thomas Peyrin](https://thomaspeyrin.github.io/web/).
 
 ### [Université ParisSaclay](https://en.wikipedia.org/wiki/Paris-Saclay_University) - [Centralesupelec](https://en.wikipedia.org/wiki/CentraleSup%C3%A9lec), 2021 Master of Engineering
@@ -84,6 +87,7 @@ association’s activities
 * English : IELTS Academic 7.5/9.0 (2020), C1
 * German : B2
 * French : Hometongue
+* Chinese : A2
 
 ### Technical Skills
 Python, SQL, Git
