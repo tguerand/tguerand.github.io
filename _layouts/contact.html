@@ -53,14 +53,26 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script type="text/javascript">var submitted=false;</script>
       <script type="text/javascript">
+      function validateEmail(email) {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return re.test(String(email).toLowerCase());
+      }
+      </script>
+      <script type="text/javascript">
         var submitted = false;
 
         $('#gform').on('submit', function (e) {
+          const email = $('#entry\\.1045781291').val();
+          if (!validateEmail(email)) {
+            e.preventDefault();
+            alert("Please enter a valid email address.");
+            return false;
+          }
+
           submitted = true;
-          // Delay to wait for Google Forms submission (usually a few seconds)
           setTimeout(function () {
-            $('#gform').hide();  // hide the form
-            $('#form-status').fadeIn();  // show the confirmation
+            $('#gform').hide();
+            $('#form-status').fadeIn();
           }, 1000);
         });
       </script>
