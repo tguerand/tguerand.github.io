@@ -15,29 +15,81 @@
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-    <header class="page-header" role="banner" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
-      <div>
-        <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-        <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-        {% if site.github.is_project_page %}
-          <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-        {% endif %}
-        {% if site.show_downloads %}
-          <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-          <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-        {% endif %}
-        <a href="https://tguerand.github.io/" class="btn">Homepage</a>
-        <a href="https://tguerand.github.io/cv" class="btn">Resume</a>
-        <a href="https://tguerand.github.io/research" class="btn">Research interest</a>
-        <a href="https://tguerand.github.io/contact" class="btn">Contact</a>
-      
-      </div>
+    <style>
+  .header-grid {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 10px;
+  }
 
-      <img src="{{ '/assets/images/20231002_ECAI_talk.jpg' | relative_url }}"
-       alt="Tristan Guérand"
-       style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-top: 10px;" />
+  .header-title {
+    text-align: center;
+    grid-column: 1 / span 2;
+  }
 
-    </header>
+  .header-image {
+    justify-self: end;
+    margin-top: 10px;
+  }
+
+  .header-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .header-nav {
+    grid-column: 1 / span 2;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  @media (max-width: 600px) {
+    .header-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .header-title,
+    .header-nav,
+    .header-image {
+      grid-column: 1;
+      justify-self: center;
+    }
+
+    .header-image {
+      order: -1;
+      margin-bottom: 10px;
+    }
+  }
+</style>
+
+<header class="page-header header-grid" role="banner">
+  <div class="header-title">
+    <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+    <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+  </div>
+
+  <div class="header-image">
+    <img src="{{ '/assets/images/me.jpg' | relative_url }}" alt="Tristan Guérand" />
+  </div>
+
+  <div class="header-nav">
+    {% if site.github.is_project_page %}
+      <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+    {% endif %}
+    {% if site.show_downloads %}
+      <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+      <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+    {% endif %}
+    <a href="https://tguerand.github.io/" class="btn">Homepage</a>
+    <a href="https://tguerand.github.io/cv" class="btn">Resume</a>
+    <a href="https://tguerand.github.io/research" class="btn">Research interest</a>
+    <a href="https://tguerand.github.io/contact" class="btn">Contact</a>
+  </div>
+</header>
+
 
     <main id="content" class="main-content" role="main">
       {{ content }}
