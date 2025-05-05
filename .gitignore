@@ -1,2 +1,8 @@
 ./quarto/*.html
 ./quarto/venv/*
+
+
+# Editor Files
+./assets/.DS_Store
+./_posts/.DS_Store
+.DS_Store
