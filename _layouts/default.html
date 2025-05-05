@@ -14,54 +14,48 @@
 
     <style>
   .header-grid {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr auto; /* two columns: text and image */
+  align-items: center;
+  gap: 10px;
+}
+
+.header-title {
+  text-align: center; /* or center, if preferred */
+  grid-column: 1;
+}
+
+.header-image {
+  grid-column: 2;
+  justify-self: end;
+}
+
+.header-nav {
+  grid-column: 1 / span 2;
+  text-align: center;
+  margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+  .header-grid {
+    grid-template-columns: 1fr;
   }
 
-  .header-title {
+  .header-title,
+  .header-image,
+  .header-nav {
+    grid-column: 1;
+    justify-self: center;
     text-align: center;
-    grid-column: 1 / span 2;
   }
 
   .header-image {
-    justify-self: end;
-    margin-top: 10px;
+    order: -1;
+    margin-bottom: 10px;
   }
-
-  .header-image img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-
-  .header-nav {
-    grid-column: 1 / span 2;
-    text-align: center;
-    margin-top: 15px;
-  }
-
-  @media (max-width: 600px) {
-    .header-grid {
-      grid-template-columns: 1fr;
-    }
-
-    .header-title,
-    .header-nav,
-    .header-image {
-      grid-column: 1;
-      justify-self: center;
-    }
-
-    .header-image {
-      order: -1;
-      margin-bottom: 10px;
-    }
-  }
+}
 </style>
-    
+
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
