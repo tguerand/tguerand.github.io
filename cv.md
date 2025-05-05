@@ -10,11 +10,18 @@ You will find a detailled resume of my experiences on this webpage.
 
 [Back to HomePage](./)
 
-Last edit : 11/10/2023
+Last edit : 05/05/2025
 
 ## Work Experience
 
-### [Nanyang Technological University](https://en.wikipedia.org/wiki/Nanyang_Technological_University) - 2022 Current PhD Student
+### [Qube Research and Technologies / QRT](https://www.qube-rt.com/) - May 2024 / October 2024  Quantitative Researcher Intern, Singapore
+Had 4 screens and a mechanical table. Quite nice.
+
+Improved latency of Machine Learning based alphas.
+
+Low latency team.
+
+### [Nanyang Technological University / NTU](https://en.wikipedia.org/wiki/Nanyang_Technological_University) - 2022 Current PhD Student, Singapore
 Under the supervision of [Thomas Peyrin](https://thomaspeyrin.github.io/web/).
 
 PhD Thesis on cryptography and machine learning. 
@@ -25,7 +32,7 @@ Teacher Assistant on the following courses (and course codes): Introduction to P
 * Bimensual podcast with [Lancelot Brun](https://www.linkedin.com/in/lancelotbrun/) on technology in french 
 * 1500+ streaming, 100+ followers
 
-### [Stellantis](https://en.wikipedia.org/wiki/Stellantis) - 2018 2021 Data Scientist, traineeship
+### [Stellantis](https://en.wikipedia.org/wiki/Stellantis) - 2018 2021 Data Scientist, traineeship, Paris Area
 * Implemented several algorithms in Python to improve quality controls in
 Stellantis factories in a team of 5 engineers
 * Studied feasibility for different visual controls, backtested promising
@@ -48,9 +55,11 @@ financial products.
 
 ## Papers and talks
 
+Truth Table Net: Scalable, Compact & Verifiable Neural Networks with a Dual Convolutional Small Boolean Circuit Networks Form, accepted at [IJCAI 24](https://www.ijcai.org/proceedings/2024/2), Adrien Benamira, Thomas Peyrin, Trevor Yap, Tristan Guérand, Bryan Hooi
+
 Neural Network-Based Rule Models With Truth Tables, accepted at [ECAI 23](https://ebooks.iospress.nl/doi/10.3233/FAIA230274), Adrien Benamira, Tristan Guérand, Thomas Peyrin, Hans Soegeng
 
-TT-TFHE: a Torus Fully Homomorphic Encryption-Friendly Neural Network Architecture, [arxiv](https://arxiv.org/abs/2302.01584), Adrien Benamira, Tristan Guérand, Thomas Peyrin, Sayandeed Saha
+TT-TFHE: a Torus Fully Homomorphic Encryption-Friendly Neural Network Architecture, [arxiv](https://arxiv.org/abs/2302.01584), Adrien Benamira, Tristan Guérand, Thomas Peyrin, Sayandeep Saha
 
 A New Interpretable Neural Network-Based Rule Model for Healthcare Decision Making, presented at [IAIM23](https://iaim2023.sg/) ([arxiv](https://arxiv.org/abs/2309.11101)), Adrien Benamira, Tristan Guérand, Thomas Peyrin
 
@@ -87,10 +96,21 @@ association’s activities
 * English : IELTS Academic 7.5/9.0 (2020), C1
 * German : B2
 * French : Hometongue
-* Chinese : A2
+* Chinese : A2 (preparing HSK3)
+
+### Hobbies
+* Waterpolo : selected for the regional team for the national tournament, 2015 - finished last but was good fun and humility lesson
+* Surf : trying hard not to be a kook
+* Diving : Advanced PADI certified, coral sightseeing enjoyer
+* Gym : working towards the 100kg benchpress
 
 ### Technical Skills
-Python, SQL, Git
+Python, SQL, Git, C++
 
+### Soft Skills
+* Team work
+* Communication
+* Adaptability
+* Autonomy
 
 
