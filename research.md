@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Research Interest
+tags: [interests, research]
 ---
 
 I currently work on cryptography and machine learning.
