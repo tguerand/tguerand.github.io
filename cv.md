@@ -30,7 +30,7 @@ Teacher Assistant on the following courses (and course codes): Introduction to P
 
 ### [2 Potes Qui Castent](https://2potesquicastent.com/) - 2021 2022 Cofounder and host
 * Bimensual podcast with [Lancelot Brun](https://www.linkedin.com/in/lancelotbrun/) on technology in french 
-* 1500+ streaming, 100+ followers
+* 1500+ streams, 100+ followers
 
 ### [Stellantis](https://en.wikipedia.org/wiki/Stellantis) - 2018 2021 Data Scientist, traineeship, Paris Area
 * Implemented several algorithms in Python to improve quality controls in
@@ -102,7 +102,7 @@ association’s activities
 * Waterpolo : selected for the regional team for the national tournament, 2015 - finished last but was good fun and humility lesson
 * Surf : trying hard not to be a kook
 * Diving : Advanced PADI certified, coral sightseeing enjoyer
-* Gym : working towards the 100kg benchpress
+* Gym : working towards the 100kg benchpress, current PB 80kg
 
 ### Technical Skills
 Python, SQL, Git, C++
