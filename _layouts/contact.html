@@ -10,6 +10,7 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
     {% include head-custom.html %}
   </head>
   <body>
@@ -25,30 +26,43 @@
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
-      <a href="https://tguerand.github.io/" class="btn">Homepage</a>
-      <a href="https://tguerand.github.io/cv" class="btn">Resume</a>
-      <a href="https://tguerand.github.io/research" class="btn">Research interest</a>
-      <a href="https://tguerand.github.io/contact" class="btn">Contact</a>
+      {% include navigation.html %}
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
 
-      <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfnBj3piRWKm4R9ImAmjZgmVwycweC8wUebkRglmoOLrUtrRg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-        First name:<br>
-        <input type="text" name="entry.2005620554" id="entry.2005620554" required><br>
-        Last name:<br>
-        <input type="text" name="entry.1065046570" id="entry.1065046570" required><br>
-        Email:<br>
-        <input type="email" name="entry.1045781291" id="entry.1045781291" required><br>
-        Message:<br>
-        <input type="text" name="entry.1166974658" id="entry.1166974658" required>
-        <input type="submit" value="Submit">
+      <form name="gform" id="gform" class="contact-form" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfnBj3piRWKm4R9ImAmjZgmVwycweC8wUebkRglmoOLrUtrRg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+        <div class="form-group">
+          <label for="entry.2005620554">First name <span class="required">*</span></label>
+          <input type="text" name="entry.2005620554" id="entry.2005620554" class="form-input" required aria-required="true" aria-label="First name">
+        </div>
+        
+        <div class="form-group">
+          <label for="entry.1065046570">Last name <span class="required">*</span></label>
+          <input type="text" name="entry.1065046570" id="entry.1065046570" class="form-input" required aria-required="true" aria-label="Last name">
+        </div>
+        
+        <div class="form-group">
+          <label for="entry.1045781291">Email <span class="required">*</span></label>
+          <input type="email" name="entry.1045781291" id="entry.1045781291" class="form-input" required aria-required="true" aria-label="Email address">
+        </div>
+        
+        <div class="form-group">
+          <label for="entry.1166974658">Message <span class="required">*</span></label>
+          <textarea name="entry.1166974658" id="entry.1166974658" class="form-textarea" rows="6" required aria-required="true" aria-label="Message"></textarea>
+        </div>
+        
+        <div class="form-group">
+          <button type="submit" class="btn btn-submit" aria-label="Submit contact form">Send Message</button>
+        </div>
       </form>
-      <div id="form-status" style="display:none; margin-top: 1em; font-weight: bold; color: green;">
-  Your message has been sent successfully!
+      
+      <div id="form-status" class="form-status" style="display:none;" role="status" aria-live="polite">
+        <p>Your message has been sent successfully! I'll get back to you soon.</p>
       </div>
-      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+      
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}" title="Hidden iframe for form submission"></iframe>
       
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script type="text/javascript">var submitted=false;</script>
@@ -77,12 +91,7 @@
         });
       </script>
       
-      <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
-        <span class="site-footer-credits">You will find the source code <a href="https://github.com/tguerand/tguerand.github.io/">here</a>.</span>
-      </footer>
+      {% include footer.html %}
     </main>
   </body>
 </html>

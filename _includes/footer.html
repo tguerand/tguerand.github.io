@@ -1,0 +1,18 @@
+<footer class="site-footer">
+  <div class="footer-social">
+    {% if site.owner.github %}
+      <a href="https://github.com/{{ site.owner.github }}" aria-label="GitHub profile">GitHub</a>
+    {% endif %}
+    {% if site.owner.linkedin %}
+      <a href="https://www.linkedin.com/in/{{ site.owner.linkedin }}/" aria-label="LinkedIn profile">LinkedIn</a>
+    {% endif %}
+    {% if site.owner.email %}
+      <a href="mailto:{{ site.owner.email }}" aria-label="Email">Email</a>
+    {% endif %}
+  </div>
+  
+  {% if site.github.is_project_page %}
+    <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+  {% endif %}
+  <span class="site-footer-credits">You will find the source code <a href="https://github.com/tguerand/tguerand.github.io/">here</a>.</span>
+</footer>

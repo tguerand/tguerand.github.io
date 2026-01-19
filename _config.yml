@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
-title: Tristan's homepage
-# description: A small webpage about me (this description should change)
+title: Tristan Guérand - PhD Candidate in Cryptography and Machine Learning
+description: PhD Candidate at Nanyang Technological University researching cryptography, machine learning, privacy-preserving ML, and explainable AI
 show_downloads : False
 
 owner:
