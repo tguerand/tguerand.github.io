@@ -20,7 +20,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   transition: all 0.2s ease;
+}
+
+.social-icon {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
 }
 
 .btn-social:hover {
@@ -267,9 +277,18 @@ hr {
 }
 
 .footer-social a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   color: #666;
   text-decoration: none;
   transition: color 0.2s ease;
+}
+
+.footer-social .social-icon {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
 }
 
 .footer-social a:hover {
