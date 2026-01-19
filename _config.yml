@@ -1,11 +1,11 @@
 theme: jekyll-theme-cayman
-title: Tristan Guérand - PhD Candidate in Cryptography and Machine Learning
-description: PhD Candidate at Nanyang Technological University researching cryptography, machine learning, privacy-preserving ML, and explainable AI
+title: Tristan Guérand - Quantitative Researcher
+description: Quantitative Researcher at Qube Research and Technologies, previously PhD Candidate in Cryptography and Machine Learning
 show_downloads : False
 
 owner:
   name: Tristan Guérand
-  bio: "This is my personal webpage"
+  bio: "Quantitative Researcher at Qube Research and Technologies, working on High Frequency Signals. Previously PhD Candidate in Cryptography and Machine Learning."
   email : tris.tan.guerand@gmail.com
   linkedin: tristanguerand
   github: tguerand

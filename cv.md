@@ -18,6 +18,10 @@ You will find a detailed resume of my experiences on this webpage.
 ## Work Experience
 
 ### [Qube Research and Technologies / QRT](https://www.qube-rt.com/)
+<div class="cv-date-location">August 2025 – Present | Singapore</div>
+<div class="cv-position">Quantitative Researcher, High Frequency Signals</div>
+
+### [Qube Research and Technologies / QRT](https://www.qube-rt.com/)
 <div class="cv-date-location">May 2024 – October 2024 | Singapore</div>
 <div class="cv-position">Quantitative Researcher Intern</div>
 
@@ -77,7 +81,7 @@ Under the supervision of [Thomas Peyrin](https://thomaspeyrin.github.io/web/).
 
 <div class="publication-item">
   <strong>TT-TFHE: a Torus Fully Homomorphic Encryption-Friendly Neural Network Architecture</strong><br>
-  <a href="https://arxiv.org/abs/2302.01584">arXiv</a><br>
+  <a href="https://openreview.net/pdf?id=tV4ynvae6W">TMLR</a><br>
   Adrien Benamira, <strong>Tristan Guérand</strong>, Thomas Peyrin, Sayandeep Saha
 </div>
 
